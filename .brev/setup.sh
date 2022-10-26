@@ -73,6 +73,8 @@ set -eo pipefail
 
 conda init bash
 conda init zsh
+eval "$(conda shell.bash hook)"
+conda activate base
 conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.6
 pip install ftfy regex tqdm
 pip install git+https://github.com/openai/CLIP.git
