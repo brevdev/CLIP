@@ -1,4 +1,6 @@
 # CLIP
+This is a fork of OpenAI's model CLIP. We've added in the .brev repo - containing setup scripts that will jump you right into a working CLIP environment. Make sure .brev/setup.sh has run and your environment should be all setup.
+To use the model, just do ```python run-clip.py```.
 
 [[Blog]](https://openai.com/blog/clip/) [[Paper]](https://arxiv.org/abs/2103.00020) [[Model Card]](model-card.md) [[Colab]](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb)
 
